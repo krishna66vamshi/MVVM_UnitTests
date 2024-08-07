@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "24EA87F4-BE05-4289-B703-0EA15517EC18",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LatestMVVM.xcodeproj",
+      "identifier" : "EF2B28952B4832E800927B99",
+      "name" : "LatestMVVM"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LatestMVVM.xcodeproj",
+        "identifier" : "EF304C8B2B4919EB00AD4C9E",
+        "name" : "LatestMVVMTests"
+      }
+    }
+  ],
+  "version" : 1
+}
