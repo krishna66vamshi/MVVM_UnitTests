@@ -21,6 +21,8 @@
 		EF2B28BC2B485EB800927B99 /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B28BB2B485EB800927B99 /* UserDetailsViewModel.swift */; };
 		EF304C8F2B4919EB00AD4C9E /* LatestMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF304C8E2B4919EB00AD4C9E /* LatestMVVMTests.swift */; };
 		EF74B3792B4921C8002768CE /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = EF74B3782B4921C8002768CE /* content.json */; };
+		EFC44DB72C635135005ECEE4 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC44DB62C635135005ECEE4 /* ImageDownloader.swift */; };
+		EFC44DB92C6351BA005ECEE4 /* ImageDownloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC44DB82C6351BA005ECEE4 /* ImageDownloaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		EF304C8E2B4919EB00AD4C9E /* LatestMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestMVVMTests.swift; sourceTree = "<group>"; };
 		EF74B3782B4921C8002768CE /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 		EF74B37B2B4967ED002768CE /* LatestMVVM.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LatestMVVM.xctestplan; sourceTree = "<group>"; };
+		EFC44DB62C635135005ECEE4 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		EFC44DB82C6351BA005ECEE4 /* ImageDownloaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				EF2B289D2B4832E800927B99 /* ViewController.swift */,
+				EFC44DB82C6351BA005ECEE4 /* ImageDownloaderViewController.swift */,
 				EF2B28B52B485C8F00927B99 /* UserDetailsViewController.swift */,
 				EF2B28AD2B48335300927B99 /* UserTableViewCell.swift */,
 			);
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				EF2B28B12B483C1100927B99 /* APIManager.swift */,
+				EFC44DB62C635135005ECEE4 /* ImageDownloader.swift */,
 				EF74B3782B4921C8002768CE /* content.json */,
 			);
 			path = ApiManager;
@@ -268,7 +274,9 @@
 				EF2B28B42B48405100927B99 /* UserListViewModel.swift in Sources */,
 				EF2B289E2B4832E800927B99 /* ViewController.swift in Sources */,
 				EF2B289A2B4832E800927B99 /* AppDelegate.swift in Sources */,
+				EFC44DB72C635135005ECEE4 /* ImageDownloader.swift in Sources */,
 				EF2B28B02B48363600927B99 /* UserModel.swift in Sources */,
+				EFC44DB92C6351BA005ECEE4 /* ImageDownloaderViewController.swift in Sources */,
 				EF2B28B62B485C8F00927B99 /* UserDetailsViewController.swift in Sources */,
 				EF2B289C2B4832E800927B99 /* SceneDelegate.swift in Sources */,
 			);
